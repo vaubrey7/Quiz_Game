@@ -12,9 +12,9 @@ let availableQuestions = []
 
 let questions =[
   
-  {question: "What is 2+2?",
+  {question: "What is 2+6?",
   choice1: "44",
-  choice2: "4",
+  choice2: "8",
   choice3: "22",
   choice4: "2",
   answer: 2, 
