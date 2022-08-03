@@ -1,25 +1,25 @@
-*{
-    font-family: 'Press Start 2P', cursive; ;
+:root {
+    font-family: 'Press Start 2P', cursive;
 }
 
 
-#progress-text{
+#progress-text {
     font-size: 5rem;
 }
 
-.hud-item{
-    font-size:xx-large;
+.hud-item {
+    font-size: xx-large;
 }
 
-.choice-container {  
+.choice-container {
     display: flex;
-    margin-bottom:0.8rem;
+    margin-bottom: 0.8rem;
     width: 100%;
     border-radius: 4px;
-    background: rgb(18,93,255);
+    background: rgb(18, 93, 255);
     font-size: 3rem;
     min-width: 80rem;
-    color:white;
+    color: white;
 }
 
 .choice-container:hover {
@@ -48,16 +48,16 @@
 }
 
 .hud-prefix {
-    text-align:center;
+    text-align: center;
     font-size: 5rem;
-    color: black!important;
+    color: black !important;
 }
 
 .hud-main-text {
     text-align: center;
 }
 
-#progressBar{
+#progressBar {
     width: 20rem;
     height: 3rem;
     border: 0.2rem solid rgb(11, 223, 36);
@@ -68,12 +68,12 @@
 
 #progressBarFull {
     height: 100%;
-    background:rgb(11, 223, 36);
+    background: rgb(11, 223, 36);
     width: 0%;
 }
 
 @media screen and (max-width:768px) {
-    .choice-container{
+    .choice-container {
         min-width: 40rem;
     }
 }

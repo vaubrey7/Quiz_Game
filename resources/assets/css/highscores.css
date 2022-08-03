@@ -1,17 +1,17 @@
-*{
-    font-family: 'Press Start 2P', cursive; ;
+:root {
+    font-family: 'Press Start 2P', cursive;
 }
 
-body{
-    color:black;
+body {
+    color: black;
 }
-#highScoresList{
+
+#highScoresList {
     list-style: none;
     margin-bottom: 4rem;
 }
 
-.high-score{
+.high-score {
     font-size: 2.8rem;
     margin-bottom: 0.5rem;
 }
-
